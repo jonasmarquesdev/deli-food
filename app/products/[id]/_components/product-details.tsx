@@ -124,7 +124,10 @@ const ProductDetails = ({
               <span className="text-xs">Tempo</span>
               <TimerIcon size={14} />
             </div>
-            {product.restaurant.deliveryTimeMinutes} min
+
+            <p className="text-xs font-semibold">
+              {product.restaurant.deliveryTimeMinutes} min
+            </p>
           </div>
         </Card>
       </div>
